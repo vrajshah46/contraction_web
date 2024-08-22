@@ -1,0 +1,158 @@
+.heading{
+    font-size: 25px;
+    height: 400px;
+}
+.titles{
+    text-decoration: underline orange;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 2px ;
+}
+.icon1:hover{
+    text-decoration: underline orange;
+    text-underline-offset: 12px;
+}
+.img1{
+    width: 220vh;
+    height: 80vh;
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+}
+.project-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover img {
+    transform: scale(1.1);
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-item:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-overlay h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-overlay p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.project-overlay a {
+    color: #f0ad4e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-overlay a:hover {
+    text-decoration: underline;
+}
+
+.link3{
+    text-decoration: none;
+}
+
+.news-section {
+    padding: 40px 0;
+}
+.news-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.news-item {
+    margin-bottom: 20px;
+}
+.news-item .news-img img {
+    width: 100%;
+    height: auto;
+}
+.news-details {
+    margin-top: 10px;
+}
+.news-details .news-meta {
+    font-size: 0.9em;
+    color: #999;
+}
+.news-details h5 {
+    margin-top: 10px;
+    font-size: 1.25em;
+}
+.news-details p {
+    margin-top: 10px;
+    font-size: 0.95em;
+    color: #666;
+}
+.read-more {
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 40px 0;
+}
+.footer h5 {
+    color: #fdd835;
+}
+.footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.subscribe-input {
+    background-color:#424242;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    width: 80%;
+}
+.subscribe-btn {
+    background-color: #fdd835;
+    border: none;
+    padding: 10px;
+    color: #212121;
+    cursor: pointer;
+}
+.subscribe-btn:hover {
+    background-color: #ffeb3b;
+}
+.icon4{
+    color: #999;
+    font-size: 15px;
+}
+.iconbox1:hover{
+    background-color: orange;
+}
